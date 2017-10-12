@@ -13,7 +13,7 @@ _A python 2.7.x application scrapes two websites for titles in the "Image of Ame
 
 * _Clone repository._
 * _"pip install bs4"._
-* _ _
+* _Run "python portland-picture-books.py"._
 * _Open buy_books.csv  All titles not owned by PCC will be in the file._
 
 ## Known Bugs
