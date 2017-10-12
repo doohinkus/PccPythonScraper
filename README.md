@@ -1,4 +1,4 @@
-# _ES6 Pig Latin_
+# _PCC Python Scraper_
 
 #### _Super simple web scraper that uses BeautifulSoup. I wrote this script for a project that I had to do at PCC. My task was to find all of the books in the "Images of America" series about Portland, OR that were NOT in PCC's collection. My script scrapes the Arcadia Publishing site, grabbing the ISBNs and titles of appropriate books in the series, storing them in a dictionary. Then it iterates through the dictionary an uses the ISBN to search the PCC Online Catalog. The results are parsed. If the title is NOT present, then the ISBN and title are added to a csv file._
 
