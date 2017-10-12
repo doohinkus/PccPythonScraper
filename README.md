@@ -26,7 +26,7 @@ _If you have any issue with this code, please contact me._
 
 ## Technologies Used
 
-_ES6, Babel, Webpack, Scss, Vanilla JS._
+_Python, BeautifulSoup, CSV._
 
 ### License
 
