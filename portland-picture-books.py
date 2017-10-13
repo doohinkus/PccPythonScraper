@@ -32,13 +32,13 @@ for key in books:
         time.sleep(9)
     # parse page
     pcc_soup = BeautifulSoup(pcc_page, 'lxml')
-    # find links/titles, the links contain the isbn!!!!
+    # find number of results at PCC
     pcc_result = pcc_soup.find('div', {'id' : 'resultsNumbersTile'})
     if (int(pcc_result.h1.em.text.strip()) == 0):
         print (pcc_result.h1.em.text.strip(), key, books.get(key))
         # write info to csv
         with open('buy_books.csv', 'a') as f:
             writer = csv.writer(f)
-            # isbn is the third element in the split array
+            # write isbn and title to csv file
             writer.writerow([key, books.get(key)])
             f.close()
